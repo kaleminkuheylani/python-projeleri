@@ -18,7 +18,7 @@ def sifre_kir(sifre):
     with open("sifre.txt","w+") as dosya:
         dosya.write("sifre:"+kirilmis_sifre+" "+str(count))
 
-sifre="emine"
+sifre="ahmet"
 
 sifre_kir(sifre)
 
